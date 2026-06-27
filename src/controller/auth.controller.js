@@ -1,6 +1,6 @@
 import userModel from "../models/user.model.js";
 import crypto from "crypto";
-import jwt from "jsonwebToken";
+import jwt from "jsonwebtoken";
 import config from "../config/config.js";
 
  export async function register(req,res){
